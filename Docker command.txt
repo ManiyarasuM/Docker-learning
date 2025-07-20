@@ -17,4 +17,5 @@ after your web not working run the below command and before make sure your EC2 S
 8. docker run -p 8000:8000 -it ee5c40f93f0a
 
 MULTI STAGE BUILDS
+firstwe need to create culculator application
 
