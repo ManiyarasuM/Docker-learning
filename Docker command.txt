@@ -1,0 +1,20 @@
+DOCKER INSTALLATION COMMAND
+https://github.com/iam-veeramalla/Docker-Zero-to-Hero/blob/main/README.md
+1. sudo apt update
+2. sudo apt install docker -y
+3. sudo systemctl status docker
+after check the default docker file is showing
+4. docker run hello-world
+if you facing permission denied error run the below cmd, once the below cmd done need restart
+5. sudo usermod -ag docker ubuntu
+
+then create a web app including the inside required pakage, code, docker file once open to the terminal then run the below command to build a docker file
+https://github.com/iam-veeramalla/Docker-Zero-to-Hero/python-web/
+6. docker build .
+then you will find the docker build ee5c40f93f0a then run the below command
+7. docker run -it ee5c40f93f0a
+after your web not working run the below command and before make sure your EC2 SG inbound rule allowed 8000 port.
+8. docker run -p 8000:8000 -it ee5c40f93f0a
+
+MULTI STAGE BUILDS
+
