@@ -64,3 +64,7 @@ Run a command in a running container.
 docker network
 Manage Docker networks such as creating and removing networks, and connecting containers to networks.
 
+LEARNING ABOUT DOCKER COMPOSE:
+https://docs.docker.com/desktop/use-desktop/
+https://github.com/docker/awesome-compose/
+
